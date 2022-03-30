@@ -33,6 +33,7 @@ df['watchers']=df['watchers'].fillna(df['watchers'].mean())
 print(df)
 print('After Cleansing the data:')
 print(df.isnull().sum())
+df.to_csv('Data_set.csv')
 ```
 # OUPUT:
 ![output1](./dc1.png)
